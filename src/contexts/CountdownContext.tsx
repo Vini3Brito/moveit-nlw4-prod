@@ -28,7 +28,7 @@ export function CountdownProvider ({ children }: CountdownProviderProps) {
     
     const {startNewChallenge} = useContext(ChallengesContext)
 
-    const cicleTime = 5 //Value in seconds
+    const cicleTime = 25 * 60 //Value in seconds
 
     const [time, setTime] = useState(cicleTime)
     const [isActive, setIsActive] = useState(false)
